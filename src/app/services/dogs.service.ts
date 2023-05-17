@@ -5,8 +5,11 @@ import {Dog} from "../models/dog";
   providedIn: 'root'
 })
 export class DogsService {
+  
   dogs : Dog[] = [];
+
   constructor() { }
+
   addDog(dog: Dog):void {
     this.dogs.push(dog)
   }
