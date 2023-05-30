@@ -25,11 +25,10 @@ export class DogListComponent implements OnInit {
    * the syntax would look a bit like this:
    * let objName : interfaceName = {stringField: "value1", numberField: 123};
    * in your case, you should use the this.nameInput, this.breedInput, this.ageInput fields rather than "value1" and 123
-   * to create the new  Dog based off the Dog interface. After creating the new Object (let's say it's called newDog),
+   * to create the new Dog based off the Dog interface. After creating the new Object (let's say it's called newDog),
    * you should call the dogsService.getDogs(newDog); method.
    */
   addDog(){
-
   }
 
   ngOnInit(): void {
